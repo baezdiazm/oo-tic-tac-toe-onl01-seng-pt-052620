@@ -127,7 +127,7 @@ def play
 if !over?
   turn
 else
-  over
+  over?
 end
 
 end
