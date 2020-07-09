@@ -125,14 +125,14 @@ class TicTacToe
     end
   end
 
-def play
-if !over?
-  turn
-else
-  over?
-end
+  def play
+    if !over?
+      turn
+    else
+      over?
+    end
 
-end
+  end
 
 
 
