@@ -100,6 +100,9 @@ class TicTacToe
 
     end
 
+    def full?
+      if @board.any? { |space| !(space == " ")} true : false
+    end
 
   end
 end
