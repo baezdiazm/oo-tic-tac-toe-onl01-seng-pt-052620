@@ -101,7 +101,7 @@ class TicTacToe
     end
 
     def full?
-      if @board.any? { |space| !(space == " ")} true : false
+      @board.any? { |space| !(space == " ")}
     end
 
   end
