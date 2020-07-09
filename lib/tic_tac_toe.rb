@@ -100,9 +100,5 @@ class TicTacToe
 
   end
 
-  def play
-    if !won? self.turn
-    else
-       self.won?
-  end
+
 end
