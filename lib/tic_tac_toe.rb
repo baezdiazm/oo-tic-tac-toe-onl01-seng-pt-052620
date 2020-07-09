@@ -102,6 +102,6 @@ class TicTacToe
   end
 
   def full?
-    @board.any?{|space| space != " "}
+    @board.all?{|space| space != " "}
   end
 end
