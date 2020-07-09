@@ -124,6 +124,11 @@ class TicTacToe
   end
 
 def play
+if !over?
+  turn
+else
+  over
+end
 
 end
 
