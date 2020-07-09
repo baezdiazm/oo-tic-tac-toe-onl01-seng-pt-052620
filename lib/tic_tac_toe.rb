@@ -123,7 +123,7 @@ class TicTacToe
     end
   end
 
-def play(input)
+def play
 
 end
 
