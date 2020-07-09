@@ -99,11 +99,10 @@ class TicTacToe
       end
 
     end
+  end
 
-    def full?
-      @board.any? {|space| space != " "}
-
-    end
+  def full?
+    @board.any? {|space| space != " "}
 
   end
 end
